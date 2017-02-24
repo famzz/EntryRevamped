@@ -22,7 +22,7 @@ class EntryRevamped(tk.Entry):
     Example:
         def onchange(varname, elementname, mode):
             name = self.entry.getparam("name")
-            print("name")
+            print(name)
             The console will output "Entry1".
             Do whatever you wish here.
 
